@@ -37,6 +37,7 @@ const MacBookAir: FunctionComponent = () => {
         <AccordionItem>
           <AccordionButton>
             <Box flex="1" textAlign="left" />
+            FILTER
             <AccordionIcon />
           </AccordionButton>
           <AccordionPanel pb={4} />
@@ -71,13 +72,17 @@ const MacBookAir: FunctionComponent = () => {
           src="/keyboard-arrow-down@2x.png"
         />
       </button>
+
+      <label htmlFor=".box">
       <input
         className="m-0 absolute top-[279px] left-[40px] w-[244px] h-[15px]"
-        type="checkbox"
-      />
+        type="checkbox" id="box" placeholder="asda"/>
+
+        text</label>
+
       <input
         className="m-0 absolute top-[304px] left-[40px] w-[244px] h-[15px]"
-        type="checkbox"
+        type="checkbox" id="myCheckbox"
       />
       <input
         className="m-0 absolute top-[329px] left-[40px] w-[244px] h-[15px]"
